@@ -1,0 +1,18 @@
+server:
+  httpPort: 8080
+  jwtSecret: 980926..**
+  jwtExpire: 24 # 单位：小时
+  domainName: http://localhost:8080/
+
+
+database:
+  dbType: mysql
+  user: root
+  password: 980926
+  host: 127.0.0.1
+  port: 3306
+  dbName: tinyurl
+  debug: ture
+
+yunpian:
+  apikey: 55149caa594f0de975f86640180c40e8
